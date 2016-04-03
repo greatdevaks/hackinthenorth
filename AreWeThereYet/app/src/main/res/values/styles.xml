@@ -1,0 +1,65 @@
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">@color/ColorPrimary</item>
+    <item name="colorPrimaryDark">@color/ColorPrimaryDark</item>
+    <item name="colorAccent">@color/ColorAccent</item>
+  </style>
+
+  <style name="FloatingActionButton" parent="AppTheme">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_marginRight">@dimen/fab_margin</item>
+    <item name="android:layout_marginBottom">@dimen/fab_margin</item>
+    <item name="button_color">@color/fab_material_green_500</item>
+    <item name="button_colorPressed">@color/fab_material_green_900</item>
+  </style>
+
+  <style name="TextView" parent="AppTheme">
+    <item name="android:textColor">@color/TextColor.DarkGray</item>
+    <item name="android:textSize">@dimen/Text.Standard</item>
+  </style>
+
+  <style name="TextView.Header" parent="TextView">
+    <item name="android:textColor">@color/ColorPrimary</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textSize">@dimen/Text.VeryLarge</item>
+  </style>
+
+  <style name="TextView.EmptyState" parent="TextView">
+    <item name="android:textColor">@color/TextColor.White</item>
+    <item name="android:textSize">@dimen/Text.EmptyState</item>
+    <item name="android:layout_margin">@dimen/Margin.Double</item>
+    <item name="android:layout_gravity">center</item>
+    <item name="android:gravity">center</item>
+  </style>
+
+  <style name="TextView.Small" parent="TextView">
+    <item name="android:textColor">@color/TextColor.Black</item>
+    <item name="android:textSize">@dimen/Text.Small</item>
+  </style>
+
+  <style name="EditText" parent="AppTheme">
+    <item name="android:textColor">@color/TextColor.Black</item>
+    <item name="android:textColorHint">@color/TextColor.Gray</item>
+    <item name="android:layout_marginRight">@dimen/Margin.Standard</item>
+    <item name="android:layout_marginLeft">@dimen/Margin.Standard</item>
+    <item name="android:layout_marginTop">@dimen/Margin.Half</item>
+    <item name="android:layout_marginBottom">@dimen/Margin.Half</item>
+    <item name="android:textSize">@dimen/Text.Standard</item>
+  </style>
+
+  <style name="DeleteButton" parent="AppTheme">
+    <item name="android:textColor">@color/TextColor.DarkGray</item>
+    <item name="android:textSize">@dimen/Text.Standard</item>
+    <item name="android:textStyle">bold</item>
+  </style>
+
+  <style name="Divider.Horizontal" parent="AppTheme">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">@dimen/Divider.Width</item>
+    <item name="android:background">@color/Divider</item>
+  </style>
+
+</resources>

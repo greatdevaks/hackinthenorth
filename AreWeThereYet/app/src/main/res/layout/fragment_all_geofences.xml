@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/fragment_all_geofences_container"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@color/Background">
+
+  <LinearLayout
+      android:id="@+id/fragment_all_geofences_emptyState"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextView.EmptyState"
+        android:text="@string/Label.EmptyState"/>
+
+  </LinearLayout>
+
+  <android.support.v7.widget.RecyclerView
+      android:id="@+id/fragment_all_geofences_geofenceRecyclerView"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:paddingBottom="@dimen/Margin.FABPadding"
+      android:clipToPadding="false"
+      android:overScrollMode="never"
+      android:scrollbars="vertical"/>
+
+  <com.software.shell.fab.ActionButton
+      android:id="@+id/fragment_all_geofences_actionButton"
+      style="@style/FloatingActionButton"
+      android:layout_gravity="bottom|end"/>
+
+</FrameLayout>
+

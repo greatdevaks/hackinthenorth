@@ -1,0 +1,43 @@
+<resources>
+  <string name="app_name">AWTY?</string>
+  <string name="app_title">Are We There Yet?</string>
+
+  <string name="action_delete_all">Delete All Geofences</string>
+
+  <!-- Dialogs -->
+  <string name="AreYouSure">Are you sure?</string>
+  <string name="Yes">Yes</string>
+  <string name="No">No</string>
+  <string name="Add">Add</string>
+  <string name="Cancel">Cancel</string>
+
+  <!-- Button -->
+  <string name="Button.DeleteGeofence">DELETE</string>
+
+  <!-- Labels -->
+  <string name="Label.Name">Name</string>
+  <string name="Label.Latitude">Latitude</string>
+  <string name="Label.Longitude">Longitude</string>
+  <string name="Label.Radius">Radius</string>
+  <string name="Label.AddGeofence">Add a Geofence</string>
+  <string name="Label.EmptyState">You haven\'t created any geofences yet. Tap the plus button to create one.\n\n\nWill we ever get there?! :]</string>
+
+  <!-- Hints -->
+  <string name="Hint.Name">Name for the geofence</string>
+  <string name="Hint.Latitude" formatted="false">Latitude (%3.1f\u00B0 to %3.1f\u00B0)</string>
+  <string name="Hint.Longitude" formatted="false">Longitude (%4.1f\u00B0 to %4.1f\u00B0) </string>
+  <string name="Hint.Radius" formatted="false">Radius (%3.2f to %3.1f km)</string>
+
+  <!-- Units -->
+  <string name="Units.Degrees">\u00B0</string>
+  <string name="Units.Kilometers">km</string>
+
+  <!-- Notification -->
+  <string name="Notification.Title">Are we there yet?</string>
+  <string name="Notification.Text">We\'re at %1$s!!!</string>
+
+  <!-- Toast -->
+  <string name="Toast.Validation">Please enter valid data for all fields</string>
+  <string name="Toast.Error">There was an error. Please try again.</string>
+
+</resources>
